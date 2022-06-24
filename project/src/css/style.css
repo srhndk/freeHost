@@ -1,0 +1,121 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#fff;
+    box-sizing:border-box;
+
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-size: 100%;
+}
+
+h3 {
+    color: red;
+    
+}
+
+.Prince {
+    display:block;
+    margin: 70px    ;
+    color:blue;
+    text-align: center;
+    font-weight: 900;
+}
+
+.cursiv {
+    font-style: italic;
+}
+
+.exemple{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    transition:2s all;
+}
+.exemple:hover {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.toLeon {
+    
+    right: 0;
+    text-transform: uppercase;
+    
+}
+
+.boxes{
+    display: block;
+
+    margin: 70px 70px 70px 150px;
+}
+
+.box {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color:blue;
+    margin-left: 70px;
+    padding:20px;
+    border: 20px solid black;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.box:hover{
+background-color:pink;
+color:black;
+border-color: yellow;
+width: 302px;
+height: 302px;
+}
+
+img {
+    display: block;
+    margin: 100px auto;
+    width: 200px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+p{
+    text-align: center;
+}
+
+.container {
+    width:32px;
+}
+
+nav{
+    position: relative;
+    right: 20px;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px 20px 0 20px;
+    color:pink;
+    transition:0.5s all;
+    cursor: pointer;
+    font-size: 20px;
+}
+nav li:hover{
+    color:blueviolet
+}
+
+
+.otstup{
+    display: block;
+    margin-top: 90px;
+}
+
+
+
+    
+    
+
+
